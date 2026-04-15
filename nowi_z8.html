@@ -14,23 +14,35 @@ p {
 
 <body style="font-family: Arial;">
 
-<h1>1. Gdzie jest wstawiany?</h1>
-<p>Styl wewnętrzny znajduje się w sekcji head.</p>
+<h1>1. Gdzie wstawiany jest styl wewnętrzny?</h1>
+<p>
+Styl wewnętrzny wstawiany jest w sekcji head dokumentu HTML,
+wewnątrz znacznika &lt;style&gt;.
+</p>
 
-<h1>2. Składnia</h1>
+<h1>2. Składnia teoretyczna (w ramce, wcięcia):</h1>
 <table border="1">
 <tr><td>
 &lt;style&gt;<br>
-p { color: red; }<br>
+selektor {<br>
+&nbsp;&nbsp;cecha: wartość;<br>
+}<br>
 &lt;/style&gt;
 </td></tr>
 </table>
 
-<h1>3. Selektory</h1>
-<p>Mogą to być np. p, h1, div.</p>
+<h1>3. Jakie mogą być selektory?</h1>
+<p>
+Selektorami mogą być znaczniki HTML (np. p, h1),
+klasy (.klasa), identyfikatory (#id) oraz inne bardziej zaawansowane selektory.
+</p>
 
-<h1>4. Cechy i wartości</h1>
-<p>Cecha to np. color, wartość np. red.</p>
+<h1>4. Jak wpisujemy cechy i wartości?</h1>
+<p>
+Cechy wpisujemy jako właściwości CSS, np. color, font-size.
+Po dwukropku wpisujemy wartość, np. red, 20px.
+Każdą deklarację kończymy średnikiem.
+</p>
 
 <!-- Nowicki Z8_html -->
 </body>
