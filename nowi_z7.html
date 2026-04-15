@@ -1,61 +1,30 @@
-
-<!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Wysocki Z7_html</title>
+<title>Nowicki Z7_html</title>
+<meta charset="UTF-8">
 </head>
 
-<body style="font-family: Arial; font-size: 16px;">
+<body style="font-family: Arial;">
 
-<h1>Zadanie 7 – Styl lokalny (liniowy / inline CSS)</h1>
+<h1>1. Styl lokalny (liniowy)</h1>
+<p>Styl lokalny pozwala na nadanie formatowania pojedynczemu elementowi strony. Dotyczy tylko tego jednego znacznika.</p>
 
-<ol>
-    <li>
-        Na co pozwala styl lokalny i który element będzie formatowany?
-        <br>
-        Styl lokalny (liniowy) pozwala na bezpośrednie formatowanie pojedynczego elementu HTML. 
-        Styl zapisuje się w atrybucie <b>style</b> danego znacznika, więc tylko ten konkretny element zostaje sformatowany.
-    </li>
+<h1>2. Składnia</h1>
+<table border="1">
+<tr><td>
+&lt;p style="color: red; font-size: 20px;"&gt;Tekst&lt;/p&gt;
+</td></tr>
+</table>
 
-    <li>
-        Składnia teoretyczna:
-        <br><br>
+<h1>3. Selektor</h1>
+<p>Selektorem może być dowolny znacznik HTML, np. p, h1, div.</p>
 
-        <table border="1">
-            <tr>
-                <td>
-                    &lt;znacznik style=&quot;cecha: wartość;&quot;&gt; treść &lt;/znacznik&gt;<br>
-                    &nbsp;&nbsp;przykład zapisu CSS wewnątrz elementu HTML
-                </td>
-            </tr>
-        </table>
-        <br>
-        (znaki &lt; &gt; zostały zapisane jako encje HTML, aby kod się nie wykonywał)
-    </li>
+<h1>4. Cecha i średnik</h1>
+<p>Cecha to właściwość np. color. Średnik oddziela kolejne cechy.</p>
 
-    <li>
-        Co może być selektorem?
-        <br>
-        Selektorem może być każdy znacznik HTML, np. &lt;p&gt;, &lt;h1&gt;, &lt;div&gt;, &lt;span&gt;, który otrzymuje atrybut style.
-    </li>
+<h1>5. Wartość</h1>
+<p>Wartość określa wygląd, np. red, 20px.</p>
 
-    <li>
-        Co wpisujemy jako "cechę" i jakie jest znaczenie średników?
-        <br>
-        „Cecha” (właściwość CSS) określa, co chcemy zmienić, np. kolor, czcionkę, rozmiar.
-        <br>
-        Średnik (;) oddziela kolejne deklaracje CSS i kończy każdą parę cecha: wartość.
-    </li>
-
-    <li>
-        Co wpisujemy jako "wartość"?
-        <br>
-        Wartość określa konkretne ustawienie danej cechy, np. red, blue, 20px, Arial, bold.
-    </li>
-</ol>
-
-<!-- nowicki_z7.html   -->
-
+<!-- Nowicki Z7_html -->
 </body>
 </html>
