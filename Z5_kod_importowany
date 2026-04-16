@@ -1,1 +1,6 @@
+p {
+ color: fuchsia;
+ font-size: 79px;
+}
 
+/* Nowicki Z5_1_html */
