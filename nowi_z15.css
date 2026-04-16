@@ -1,5 +1,13 @@
-p {
- color: #69A25C;
+body {
+ background-color: rgb(51%,36%,80%);
+ font-size: 17px;
 }
+
+p {
+ color: #699B5B;
+ font-size: 18px;
+}
+
+
 
 /* Nowicki Z15_html */
